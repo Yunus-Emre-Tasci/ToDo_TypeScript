@@ -6,6 +6,7 @@ interface TodoType {
 
 interface IListItem {
   item: TodoType;
+  toggleTodo: ToggleFn;
 }
 
 type AddFn = (text: string) => void;
