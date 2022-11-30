@@ -7,3 +7,5 @@ interface TodoType {
 interface IListItem {
   item: TodoType;
 }
+
+type AddFn = (text: string) => void;
