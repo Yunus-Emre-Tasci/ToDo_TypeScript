@@ -22,7 +22,7 @@ const InputForm: React.FC<IInputForm> = ({ addTodo }) => {
         value={task}
         onChange={(e) => setTask(e.target.value)}
       />
-      <button className="btn-hover btn-color" type="submit" onClick={handleClick} disabled={!task}>
+      <button className="btn-hover" type="submit" onClick={handleClick} disabled={!task}>
         Add New Todo
       </button>
     </div>
